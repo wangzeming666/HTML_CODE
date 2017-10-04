@@ -1,0 +1,105 @@
+<!--try2.html-->
+<html>
+<head>
+	<style type="text/css">
+
+	body 
+	{background-image:url("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1507097293188&di=24c5432753a2ec6b6d265e7def3879a5&imgtype=0&src=http%3A%2F%2Fimgsrc.baidu.com%2Fimage%2Fc0%253Dshijue1%252C0%252C0%252C294%252C40%2Fsign%3Dcfbef6e7eccd7b89fd6132c0674d28d2%2F9f510fb30f2442a7c28a0b88db43ad4bd1130212.jpg");
+	background-size:cover
+	}
+	fieldset
+	{
+	position:relative;
+	left:500px
+	}
+	table
+	{
+		position:relative;
+		:center;
+	}
+	*
+	{color:white;} 
+</style>
+	
+	<body>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+
+		
+		<form name="input" action="url_form_action">
+		
+		<fieldset style="width:30%;">
+			<legend>用户注册</legend>
+		
+			<table>
+				<tr>
+					<td>用户名：</td>
+					<td> <input type="text" name="name"></td>
+					<td>密码：</td>
+					<td><input type="text" name="password"></td>
+				</tr>
+			</table>
+			<table>
+				<tr>
+					<td>性别：</td>
+					<td>男<input type="radio" checked="checked" name="Sex" value="male" /></td>
+					<td>女<input type="radio" name="Sex" value="female" /></td>
+				</tr>
+
+				<tr>
+					<td>学历：</td>
+					<td colspan = "2">
+						<select name="grade" style="color:black">
+							<option value="middle_school">高中及以下</option>
+							<option value="bachlior" selected="selected">本科</option>
+							<option value="master">研究生及以上</option>
+						</select>
+					</td>
+				</tr>
+			</table>
+			<table>
+				<tr>
+					<td colspan="2">备注: </td>
+				</tr>
+			
+				<tr>
+					<td colspan="4"><textarea name="comment" rows="5" cols="60"></textarea></td>
+				</tr>
+			</table>
+			<table>
+			<tr>
+				<td rowspan="2">兴趣爱好:</td>
+				<td>运动<input type="checkbox" name="sport"></td>
+				<td>电影<input type="checkbox" name="movie"></td>
+				<td>音乐<input type="checkbox" name="music"></td>
+			</tr>
+			<tr>
+				<td>编程<input type="checkbox" name="programming"></td>
+				<td>下厨<input type="checkbox" name="cooking"></td>
+				<td>旅游<input type="checkbox" name="tour"></td>
+			</tr>
+		</table>
+		<table>
+
+		<tr>
+			<td>
+				上传头像:
+				<input type="file" name="pic" accept=".png, .ipg .gif ">
+			</td>
+		</tr>
+			<tr>
+			<td>
+			<input type="submit" value="注册" style="color:black">
+			</td>
+			</tr>
+		
+			</table>
+			</fieldset>
+		</form>
+	</div>
+	</body>
+</html>
